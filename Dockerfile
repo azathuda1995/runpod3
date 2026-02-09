@@ -1,6 +1,6 @@
 # Use gonka's custom vLLM image with PoC v2 endpoints support
 # Note: -poc-v2-post2 includes group_id/n_groups support for nonce distribution
-FROM ghcr.io/gonka-ai/vllm:v0.9.1-poc-v2-post3-blackwell-sm120
+FROM ghcr.io/vedenij/vllm:v0.9.1-poc-v2-blackwell
 
 # Set working directory
 WORKDIR /app
