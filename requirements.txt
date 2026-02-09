@@ -1,0 +1,9 @@
+# Minimal dependencies for vLLM-based handler
+# Most dependencies come from the vLLM base image
+
+# RunPod SDK
+runpod
+
+# HTTP clients (for communicating with vLLM)
+requests>=2.31.0
+httpx>=0.24.0
